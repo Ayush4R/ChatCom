@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatCom - Realtime Chat App</title>
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat_logo.png" alt="">
+        <h1 style="color:whitesmoke;">ChatCom</h1>
+    </nav>
+    <div class="screen"></div>
+    <div class="send">
+        <form action="#" id="send-screen">
+            <input type="text" username="messageInp" id="messageInp">
+            <button class="butn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
